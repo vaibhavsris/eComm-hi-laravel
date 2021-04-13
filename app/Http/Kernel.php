@@ -20,9 +20,12 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\PreventRequestsDuringMaintenance::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \Illuminate\Session\Middleware\StartSession::class,
+        // session ko use karne ke liye yaha SESSION ko register karna padta hai
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \App\Http\Middleware\UserAuth::class
+        // use karne se pahle middleware ko register yahan kare 
+
     ];
 
     /**
