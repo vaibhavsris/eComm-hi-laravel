@@ -24,4 +24,23 @@
         {{View::make('footer')}}
     </div>
 </body>
+<style>
+    img.slider-img {
+        height: 350px !important;
+
+    }
+    .trending-img {
+        height: 100px;
+    }
+    .trending-item {
+        float: left;
+        width: 20%;
+    }
+    .trending-wrapper {
+        margin: 30px;
+    }
+    .detail-img {
+        height: 200px;
+    }
+</style>
 </html>
