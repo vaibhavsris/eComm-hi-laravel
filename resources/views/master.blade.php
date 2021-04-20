@@ -42,5 +42,10 @@
     .detail-img {
         height: 200px;
     }
+    .cart-list-divider{
+        border-bottom: 1px solid grey;
+        margin: 0px 0px 30px 0px;
+        padding: 20px;
+    }
 </style>
 </html>
